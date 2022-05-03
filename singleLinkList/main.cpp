@@ -1,14 +1,32 @@
-//
-//  main.cpp
-//  singleLinkList
-//
-//  Created by 孙永杰 on 2022/5/3.
-//
+#include <string> // stand library ahead of user define header
 
-#include <iostream>
+#include "sll.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+
+    sll<string> list1(3);
+    sll<string> list2(list1);
+    cout << list1 << endl;
+    globalPrint(cout, list1);
+    cout << endl;
+    cout << list2 << endl;
+    globalPrint(cout, list2);
+    cout << endl;
+
+    list1.deleteNode("yong");
+    cout << list1 << endl;
+    globalPrint(cout, list1);
+    cout << endl;
+
+    sll<string> list3(cin);
+    cout << list3 << endl;
+
+    // sll<int> is a type(class type)(class user defined)
+    // the object of this type is a list composed of object of type slln<int>
+    // list4 is an object, it is composed of several object with type of slln<int>
+    sll<int> list4;
+    cin >> list4;
+    cout << list4 << endl;
     return 0;
 }

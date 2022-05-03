@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		137B1F6A2820E5090017828B /* singleLinkList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = singleLinkList; sourceTree = BUILT_PRODUCTS_DIR; };
 		137B1F6D2820E5090017828B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		137B1F742820E5370017828B /* MyException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyException.h; sourceTree = "<group>"; };
+		137B1F752820E5370017828B /* sll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sll.h; sourceTree = "<group>"; };
+		137B1F762820E5370017828B /* slln.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slln.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,9 @@
 		137B1F6C2820E5090017828B /* singleLinkList */ = {
 			isa = PBXGroup;
 			children = (
+				137B1F742820E5370017828B /* MyException.h */,
+				137B1F752820E5370017828B /* sll.h */,
+				137B1F762820E5370017828B /* slln.h */,
 				137B1F6D2820E5090017828B /* main.cpp */,
 			);
 			path = singleLinkList;
